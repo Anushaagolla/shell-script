@@ -1,5 +1,4 @@
-VALIDATE 
-{
+VALIDATE() {
     if [ $2 -ne 0 ]
     then
         echo "$1 installation is not successful"
