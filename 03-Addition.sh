@@ -1,7 +1,7 @@
 #!/bin/bash
 
-x=$1
-y=$2
+echo "please enter your username"
 
-z=$((x+y))
-echo "addition of two numbers is : $z"
+read USERNAME
+
+echo "username name is : $USERNAME"
