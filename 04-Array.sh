@@ -1,5 +1,5 @@
 #!/bin/bash
 
-person=("ramesh","suresh","sachin")
+person=("ramesh" "suresh" "sachin")
 
-echo "persons are : ${person[1]}"
+echo "persons are : ${person[@]}"
