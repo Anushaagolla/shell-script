@@ -12,10 +12,10 @@
 # echo "enter password"
 # read $PASSWORD
 
- num1=$1
- num2=$2
- sub=$((num1-num2))
- echo "sub of the two numbers is :$sub"
+#  num1=$1
+#  num2=$2
+#  sub=$((num1-num2))
+#  echo "sub of the two numbers is :$sub"
 
 # Date=$(date +%F)
 # echo "todays date is :$Date"
