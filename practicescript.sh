@@ -27,5 +27,5 @@ array=(1 "anu" "anusha")
 
 for i in $array
 do
-    echo i
+    echo $i
 done
