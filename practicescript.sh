@@ -20,12 +20,12 @@
 # Date=$(date +%F)
 # echo "todays date is :$Date"
 
-array=(1 "anu" "anusha")
+array={1 "anu" "anusha"}
 # echo "array is :${array[0]}"
 # echo "array is :${array[1]}"
 # echo "array is :${array[2]}"
 
-for i in ${array[$@]}
+for i in $array
 do
     echo $i
 done
