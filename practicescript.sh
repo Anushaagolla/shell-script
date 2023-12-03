@@ -12,10 +12,13 @@
 # echo "enter password"
 # read $PASSWORD
 
-num1=$1
-num2=$2
-sum=$((num1+num2))
-echo "sum of the two numbers is :$sum"
+# num1=$1
+# num2=$2
+# sum=$((num1+num2))
+# echo "sum of the two numbers is :$sum"
 
-Date=$(date +%F)
-echo "todays date is :$Date"
+# Date=$(date +%F)
+# echo "todays date is :$Date"
+
+array=(1 "anu" "anusha")
+echo "array is :$array"
