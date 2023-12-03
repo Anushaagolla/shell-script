@@ -32,7 +32,10 @@
 # done
 
 num=10
-if [$((num%2)) -ie 0 ]
+num2=2
+if [$((num%num2)) -ne 0 ]
 then
+    echo "condition is false"
+else
     echo "condition is true"
 fi
