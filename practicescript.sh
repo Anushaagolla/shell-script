@@ -31,10 +31,18 @@
 #     echo $i
 # done
 
-num=11
-if [$((num%2)) -ne 0 ]
+# num=11
+# if [ $((num%2)) -ne 0 ]
+# then
+#     echo "condition is false"
+# else
+#     echo "condition is true"
+# fi
+
+userid=$(id -u)
+if [ $userid -ne 0 ]
 then
-    echo "condition is false"
-else
-    echo "condition is true"
+    echo "ERROR: please run with sudo access"
+    exit 1
+    echo "$?"
 fi
