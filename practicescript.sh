@@ -16,3 +16,6 @@ num1=$1
 num2=$2
 sum=$((num1+num2))
 echo "sum of the two numbers is :$sum"
+
+Date=$(date)
+echo "todays date is :$Date"
