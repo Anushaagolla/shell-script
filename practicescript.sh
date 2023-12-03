@@ -26,7 +26,12 @@ a=range(10)
 # echo "array is :${array[1]}"
 # echo "array is :${array[2]}"
 
-for i in $a
-do
-    echo $i
-done
+# for i in $a
+# do
+#     echo $i
+# done
+num=10
+if [$num%2 e 0 ]
+then
+    echo "condition is true"
+fi
