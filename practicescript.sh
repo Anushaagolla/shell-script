@@ -21,7 +21,7 @@
 # echo "todays date is :$Date"
 
 #array=(1 "anu" "anusha")
-a=range(10)
+# a=range(10)
 # echo "array is :${array[0]}"
 # echo "array is :${array[1]}"
 # echo "array is :${array[2]}"
