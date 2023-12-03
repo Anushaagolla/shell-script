@@ -25,7 +25,7 @@
 # echo "array is :${array[1]}"
 # echo "array is :${array[2]}"
 
-for i in {1..10}
+for i in {a..z}
 do
     echo $i
 done
