@@ -25,7 +25,7 @@ array=(1 "anu" "anusha")
 # echo "array is :${array[1]}"
 # echo "array is :${array[2]}"
 
-for i in $array
+for i in ${array[$@]}
 do
     echo $i
 done
