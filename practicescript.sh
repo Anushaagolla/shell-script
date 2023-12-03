@@ -21,4 +21,4 @@
 # echo "todays date is :$Date"
 
 array=(1 "anu" "anusha")
-echo "array is :$array"
+echo "array is :${array[@]}"
