@@ -30,8 +30,9 @@
 # do
 #     echo $i
 # done
+
 num=10
-if [$num%2 e 0 ]
+if [$num%2 -e 0 ]
 then
     echo "condition is true"
 fi
