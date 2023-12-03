@@ -12,10 +12,10 @@
 # echo "enter password"
 # read $PASSWORD
 
-# num1=$1
-# num2=$2
-# sum=$((num1+num2))
-# echo "sum of the two numbers is :$sum"
+ num1=$1
+ num2=$2
+ sub=$((num1-num2))
+ echo "sub of the two numbers is :$sub"
 
 # Date=$(date +%F)
 # echo "todays date is :$Date"
@@ -39,10 +39,10 @@
 #     echo "condition is true"
 # fi
 
-userid=$(id -u)
-if [ $userid -ne 0 ]
-then
-    echo "ERROR: please run with sudo access"
-    exit 1
-    echo "$?"
-fi
+# userid=$(id -u)
+# if [ $userid -ne 0 ]
+# then
+#     echo "ERROR: please run with sudo access"
+#     exit 1
+#     echo "$?"
+# fi
