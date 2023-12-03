@@ -31,7 +31,7 @@
 #     echo $i
 # done
 
-num=10
+num=11
 if [$((num%2)) -ne 0 ]
 then
     echo "condition is false"
