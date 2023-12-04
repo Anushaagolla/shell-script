@@ -14,7 +14,7 @@
 
  num1=$1
  num2=$2
- sub= expr $((num1-num2))
+ sub=$((num1-num2))
  echo "sub of the two numbers is :$sub"
 
 # Date=$(date +%F)
