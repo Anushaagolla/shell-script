@@ -3,7 +3,6 @@ userid=$(id -u)
 Date=$(date +%F)
 
 # Initializing the logs directory
-mkdir /home/centos/shellscript-logs
 logsdir=/home/centos/shellscript-logs
 script-name=$0
 logfile=$logsdsir/$0-$Date.log
