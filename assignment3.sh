@@ -2,6 +2,7 @@
 
 echo "enter your input"
 read $input
+reverse=" "
 
 len=${#input}
 for (( i=$len; i>=0; i-- ))
