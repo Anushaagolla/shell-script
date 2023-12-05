@@ -5,5 +5,5 @@ file=/c/users/anuan/test.txt
 
 while read line
 do
-    echo "$line" | awk -d ' ' '{print $@} | sort -d | uniq -c
+    echo "$line" | awk '{print $@} | sort -d | uniq -c
 done < $file
