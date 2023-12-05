@@ -4,7 +4,7 @@ echo "enter your input"
 read $input
 
 len=$(#input)
-for (i=$len; i>=0; i--)
+for ((i=$len; i>=0; i--))
 do
     reverse=$reverse${input:$i:1}
 done
