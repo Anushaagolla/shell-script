@@ -13,6 +13,7 @@ done
 if [ $input -ne $reverse]
 then
     echo "$input not palindrome"
+    exit 1
 else
     echo "$input is palindrome"
 fi
