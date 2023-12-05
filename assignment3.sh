@@ -1,20 +1,18 @@
 #!/bin/bash
 
-echo "enter your input"
-read $input
+echo "Enter a string:"
+read input
 
 len=${#input}
-reverse=" "
+reverse=""
 
-for (( i=$len-1; i>=0; i-- ))
+for ((i=$len-1; i>=0; i--))
 do
-    reverse="$reverse${input:$i:1}"
+  reverse="$reverse${input:$i:1}"
 done
 
-if [ $input -ne $reverse ]
-then
-    echo "$input not palindrome"
-    exit 1
+if [ "$input" == "$reverse" ]; then
+  echo "The string is a palindrome."
 else
-    echo "$input is palindrome"
+  echo "The string is not a palindrome."
 fi
