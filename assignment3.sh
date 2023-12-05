@@ -10,7 +10,7 @@ do
     reverse="$reverse${input:$i:1}"
 done
 
-if [ $input == $reverse]
+if [ $input -ne $reverse]
 then
     echo "$input is palindrome"
 else
