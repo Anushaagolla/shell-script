@@ -1,7 +1,7 @@
 #!/bin/bash
 file=/c/users/anuan/test.txt
 
-cat $file | tr ' ' '\n' | sort | sort -d | uniq -c
+cat $file | tr ' ' '\n' | sort | uniq -c
 
 # while read line
 # do
